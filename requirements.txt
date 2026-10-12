@@ -1,0 +1,28 @@
+# Dependencies for the Streamlit app (streamlit_app.py) on Streamlit Community Cloud.
+# Mirrors [tool.poetry.dependencies] in pyproject.toml, minus Flask and the PDF extra.
+streamlit>=1.50
+phonenumbers>=8.13
+aiodns>=3,<5
+aiohttp>=3.12.14,<4
+aiohttp-socks>=0.10.1,<0.13.0
+certifi>=2025.6.15
+colorama>=0.4.6,<0.5
+html5lib>=1.1,<2
+Jinja2>=3.1.6,<4
+lxml>=6.0.2,<7.0
+MarkupSafe>=3.0.2,<4
+pycountry>=24.6.1,<27.0.0
+PySocks>=1.7.1,<2
+python-dateutil>=2.8.1
+requests>=2.32.4,<3
+socid-extractor>=0.1.1,<0.2.0
+soupsieve>=2.6,<3
+alive_progress>=3.2.0,<4
+typing-extensions>=4.14.1,<5
+XMind>=1.2.0,<2
+yarl>=1.20.1,<2
+networkx>=2.6.3,<3
+pyvis>=0.3.2,<0.4
+reportlab>=4.4.3,<6.0.0
+platformdirs>=4.3.8,<5
+curl-cffi>=0.14,<1.0
