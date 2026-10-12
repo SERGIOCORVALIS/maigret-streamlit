@@ -1,6 +1,6 @@
 # Dependencies for the Streamlit app (streamlit_app.py) on Streamlit Community Cloud.
 # Mirrors [tool.poetry.dependencies] in pyproject.toml, minus Flask and the PDF extra.
-streamlit>=1.50
+streamlit>=1.65.0
 phonenumbers>=8.13
 aiodns>=3,<5
 aiohttp>=3.12.14,<4
