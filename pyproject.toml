@@ -59,7 +59,7 @@ typing-extensions = "^4.14.1"
 xhtml2pdf = {version = "^0.2.11", optional = true}
 XMind = "^1.2.0"
 yarl = "^1.20.1"
-networkx = "^2.6.3"
+networkx = ">=2.6.3,<4.0.0"
 pyvis = "^0.3.2"
 reportlab = ">=4.4.3,<6.0.0"
 flask = {extras = ["async"], version = "^3.1.1"}
